@@ -1,0 +1,37 @@
+plugins {
+    id 'org.hidetake.ssh' version '1.2.0'
+}
+apply plugin: 'java'
+
+jar.baseName = 'MendeleyProcess'
+
+// Primo jar files needed for compilation
+ext.primoDependencyDir = "lib"
+ext.primoJars = ["primo-library-common-4.5.0.jar",
+                 "jaguar-client-4.5.0.jar",
+                 "primo-common-infra-4.5.0.jar"]
+
+// includes tasks for downloading Primo dependencies
+// and deployment automation
+/*
+apply from: 'ssh.gradle'
+compileJava.dependsOn getPrimoLibs
+*/
+
+repositories {
+    jcenter()
+    mavenCentral() 
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:1.+"
+    testCompile "com.google.guava:guava:+"
+
+    compile fileTree(dir: primoDependencyDir, include: primoJars)
+    compile "javax.servlet:servlet-api:2.5"
+    compile "org.apache.xmlbeans:xmlbeans:2.4.0"
+    compile "org.apache.velocity:velocity:1.7"
+    compile "org.apache.commons:commons-lang3:3.1"
+    compile 'org.slf4j:slf4j-api:1.7.12'
+}

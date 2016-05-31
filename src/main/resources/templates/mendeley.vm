@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="JavaScript">
+            var url = "$deepLink";
+            window.location = url;
+        </script>
+        <noscript>
+            <meta http-equiv="refresh" content="0; url=$deepLink">
+        </noscript>
+#foreach ($field in $citationFields.entrySet())
+        <meta name="$field.key" content="$field.value">
+#end
+        <title>$title</title>
+    </head>
+    <body>
+        <a href="$deepLink">continue to the resource</a>
+    </body>
+</html>

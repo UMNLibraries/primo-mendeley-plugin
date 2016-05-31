@@ -1,0 +1,276 @@
+<sear:SEGMENTS xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search"><sear:JAGROOT><sear:RESULT><sear:QUERYTRANSFORMS/><sear:FACETLIST ACCURATE_COUNTERS="true" FACET_COUNT="9"><sear:FACET NAME="topic" COUNT="10"><sear:FACET_VALUES KEY="Deoxyribonucleic Acid" VALUE="1"/><sear:FACET_VALUES KEY="Acquisitions &amp; Mergers" VALUE="1"/><sear:FACET_VALUES KEY="Education" VALUE="1"/><sear:FACET_VALUES KEY="DNA" VALUE="1"/><sear:FACET_VALUES KEY="Methods" VALUE="1"/><sear:FACET_VALUES KEY="Datasets" VALUE="1"/><sear:FACET_VALUES KEY="Real-Time Polymerase Chain Reaction" VALUE="1"/><sear:FACET_VALUES KEY="Bias" VALUE="1"/><sear:FACET_VALUES KEY="Gene Expression" VALUE="1"/><sear:FACET_VALUES KEY="Noise" VALUE="1"/></sear:FACET><sear:FACET NAME="pfilter" COUNT="1"><sear:FACET_VALUES KEY="articles" VALUE="2"/></sear:FACET><sear:FACET NAME="tlevel" COUNT="2"><sear:FACET_VALUES KEY="peer_reviewed" VALUE="2"/><sear:FACET_VALUES KEY="online_resources" VALUE="2"/></sear:FACET><sear:FACET NAME="domain" COUNT="3"><sear:FACET_VALUES KEY="Science Citation Index Expanded (Web of Science)" VALUE="1"/><sear:FACET_VALUES KEY="MEDLINE/PubMed (NLM)" VALUE="1"/><sear:FACET_VALUES KEY="Scopus (Elsevier)" VALUE="1"/></sear:FACET><sear:FACET NAME="rtype" COUNT="1"><sear:FACET_VALUES KEY="articles" VALUE="2"/></sear:FACET><sear:FACET NAME="jtitle" COUNT="1"><sear:FACET_VALUES KEY="Clinical Chemistry" VALUE="2"/></sear:FACET><sear:FACET NAME="creationdate" COUNT="2"><sear:FACET_VALUES KEY="2014" VALUE="1"/><sear:FACET_VALUES KEY="2015" VALUE="2"/></sear:FACET><sear:FACET NAME="lang" COUNT="1"><sear:FACET_VALUES KEY="eng" VALUE="2"/></sear:FACET><sear:FACET NAME="creator" COUNT="16"><sear:FACET_VALUES KEY="Deutschmann, Claudia" VALUE="1"/><sear:FACET_VALUES KEY="Burdukiewicz, Michal" VALUE="1"/><sear:FACET_VALUES KEY="Spiess, Andrej-Nikolai" VALUE="1"/><sear:FACET_VALUES KEY="Klat, Katharina" VALUE="1"/><sear:FACET_VALUES KEY="Rödiger, Stefan" VALUE="1"/><sear:FACET_VALUES KEY="Himmelreich, R." VALUE="2"/><sear:FACET_VALUES KEY="Burdukiewicz, M" VALUE="2"/><sear:FACET_VALUES KEY="Himmelreich, Ralf" VALUE="1"/><sear:FACET_VALUES KEY="Deutschmann, C." VALUE="2"/><sear:FACET_VALUES KEY="Klat, K" VALUE="2"/><sear:FACET_VALUES KEY="Spiess, A.-N." VALUE="1"/><sear:FACET_VALUES KEY="Rodiger, S." VALUE="2"/><sear:FACET_VALUES KEY="Burdukiewicz, Michał" VALUE="1"/><sear:FACET_VALUES KEY="Schierack, Peter" VALUE="1"/><sear:FACET_VALUES KEY="Schierack, P." VALUE="2"/><sear:FACET_VALUES KEY="Spiess, An" VALUE="1"/></sear:FACET></sear:FACETLIST><sear:DOCSET TOTALHITS="2" HITS="" FIRSTHIT="1" LASTHIT="2"><sear:DOC RANK="1.4153715E-5" ID="105043752" NO="1" SITEID="" LOCAL="false" SEARCH_ENGINE="primo_central_multiple_fe" SEARCH_ENGINE_TYPE="Primo Central Search Engine"><PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib">
+    <record>
+      <control>
+        <sourcerecordid>2-s2.0-84921851772</sourcerecordid>
+        <sourceid>scopus</sourceid>
+        <recordid>TN_scopus2-s2.0-84921851772</recordid>
+        <sourcesystem>Other</sourcesystem>
+      </control>
+      <display>
+        <type>article</type>
+        <title>Impact of smoothing on parameter estimation in quantitative DNA amplification experiments</title>
+        <source>Scopus (Elsevier B.V)&lt;img src="http://exlibris-pub.s3.amazonaws.com/Scopus.jpg" style="vertical-align:middle;margin-left:7px"></source>
+        <rights>Copyright 2015 Elsevier B.V., All rights reserved.</rights>
+        <version>4</version>
+        <lds50>peer_reviewed</lds50>
+      </display>
+      <links>
+        <openurl>$$Topenurl_article</openurl>
+        <backlink>$$Uhttp://www.scopus.com/scopus/openurl/link.url?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&amp;svc.abstract=yes&amp;rft_id=info:eid/2-s2.0-84921851772&amp;rfr_dat=partnerID:45$$EView_record_in_Scopus</backlink>
+        <openurlfulltext>$$Topenurlfull_article</openurlfulltext>
+      </links>
+      <search>
+        <title>Impact of smoothing on parameter estimation in quantitative DNA amplification experiments</title>
+        <general>10.1373/clinchem.2014.230656</general>
+        <general>CLCHA</general>
+        <general>Scopus (Elsevier)</general>
+        <sourceid>scopus</sourceid>
+        <recordid>scopus2-s2.0-84921851772</recordid>
+        <issn>1530-8561</issn>
+        <issn>15308561</issn>
+        <issn>0009-9147</issn>
+        <issn>00099147</issn>
+        <rsrctype>article</rsrctype>
+        <creationdate>2015</creationdate>
+        <startdate>20150201</startdate>
+        <addtitle>Clinical Chemistry</addtitle>
+        <searchscope>scopus</searchscope>
+        <scope>scopus</scope>
+        <lsr42>A.-N.</lsr42>
+        <lsr42>C.</lsr42>
+        <lsr42>P.</lsr42>
+        <lsr42>S.</lsr42>
+        <lsr42>M.</lsr42>
+        <lsr42>R.</lsr42>
+        <lsr42>K.</lsr42>
+        <creatorcontrib>Spiess, Andrej-Nikolai</creatorcontrib>
+        <creatorcontrib>Deutschmann, Claudia</creatorcontrib>
+        <creatorcontrib>Schierack, Peter</creatorcontrib>
+        <creatorcontrib>Rödiger, Stefan</creatorcontrib>
+        <creatorcontrib>Burdukiewicz, Michał</creatorcontrib>
+        <creatorcontrib>Himmelreich, Ralf</creatorcontrib>
+        <creatorcontrib>Klat, Katharina</creatorcontrib>
+        <enddate>20150201</enddate>
+        <citation>pf 379 pt 388 vol 61 issue 2</citation>
+      </search>
+      <sort>
+        <title>Impact of smoothing on parameter estimation in quantitative DNA amplification experiments</title>
+        <author>Spiess, Andrej-Nikolai ; Deutschmann, Claudia ; Schierack, Peter ; Rödiger, Stefan ; Burdukiewicz, Michał ; Himmelreich, Ralf ; Klat, Katharina ; Klat, Katharina</author>
+        <creationdate>20150201</creationdate>
+        <lso01>20150201</lso01>
+      </sort>
+      <facets>
+        <frbrgroupid>-4944690514151195743</frbrgroupid>
+        <frbrtype>5</frbrtype>
+        <creationdate>2015</creationdate>
+        <collection>Scopus (Elsevier)</collection>
+        <prefilter>articles</prefilter>
+        <rsrctype>articles</rsrctype>
+        <jtitle>Clinical Chemistry</jtitle>
+        <creatorcontrib>Spiess, Andrej-Nikolai</creatorcontrib>
+        <creatorcontrib>Deutschmann, Claudia</creatorcontrib>
+        <creatorcontrib>Schierack, Peter</creatorcontrib>
+        <creatorcontrib>Rödiger, Stefan</creatorcontrib>
+        <creatorcontrib>Burdukiewicz, Michał</creatorcontrib>
+        <creatorcontrib>Himmelreich, Ralf</creatorcontrib>
+        <creatorcontrib>Klat, Katharina</creatorcontrib>
+        <toplevel>peer_reviewed</toplevel>
+      </facets>
+      <delivery>
+        <delcategory>Remote Search Resource</delcategory>
+        <fulltext>fulltext</fulltext>
+      </delivery>
+      <addata>
+        <volume>61</volume>
+        <issue>2</issue>
+        <spage>379</spage>
+        <issn>00099147</issn>
+        <eissn>15308561</eissn>
+        <coden>CLCHA</coden>
+        <format>journal</format>
+        <genre>article</genre>
+        <ristype>JOUR</ristype>
+        <pub>American Association for Clinical Chemistry Inc.</pub>
+        <aulast>Spiess</aulast>
+        <aulast>Deutschmann</aulast>
+        <aulast>Schierack</aulast>
+        <aulast>Rödiger</aulast>
+        <aulast>Burdukiewicz</aulast>
+        <aulast>Himmelreich</aulast>
+        <aulast>Klat</aulast>
+        <aufirst>Andrej-Nikolai</aufirst>
+        <aufirst>Claudia</aufirst>
+        <aufirst>Peter</aufirst>
+        <aufirst>Stefan</aufirst>
+        <aufirst>Michał</aufirst>
+        <aufirst>Ralf</aufirst>
+        <aufirst>Katharina</aufirst>
+        <auinit>A</auinit>
+        <auinit>C</auinit>
+        <auinit>M</auinit>
+        <auinit>R</auinit>
+        <auinit>K</auinit>
+        <auinit>P</auinit>
+        <auinit>S</auinit>
+        <auinitm>N</auinitm>
+        <atitle>Impact of smoothing on parameter estimation in quantitative DNA amplification experiments</atitle>
+        <jtitle>Clinical Chemistry</jtitle>
+        <date>20150201</date>
+        <epage>388</epage>
+        <pages>379-388</pages>
+        <doi>10.1373/clinchem.2014.230656</doi>
+        <au>Spiess, Andrej-Nikolai</au>
+        <au>Deutschmann, Claudia</au>
+        <au>Schierack, Peter</au>
+        <au>Rödiger, Stefan</au>
+        <au>Burdukiewicz, Michał</au>
+        <au>Himmelreich, Ralf</au>
+        <au>Klat, Katharina</au>
+      </addata>
+    </record>
+  </PrimoNMBib><sear:GETIT deliveryCategory="Remote Search Resource" GetIt1="http://na01.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&amp;ctx_id=10_1&amp;ctx_tim=2015-09-03T07%3A50%3A16IST&amp;ctx_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;url_ver=Z39.88-2004&amp;rfr_id=info:sid/primo.exlibrisgroup.com-scopus&amp;req_id=&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Impact+of+smoothing+on+parameter+estimation+in+quantitative+DNA+amplification+experiments&amp;rft.jtitle=Clinical+Chemistry&amp;rft.btitle=&amp;rft.aulast=Spiess&amp;rft.auinit=A&amp;rft.auinit1=&amp;rft.auinitm=N&amp;rft.ausuffix=&amp;rft.au=Spiess%2C+Andrej-Nikolai&amp;rft.aucorp=&amp;rft.date=20150201&amp;rft.volume=61&amp;rft.issue=2&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=379&amp;rft.epage=388&amp;rft.pages=379-388&amp;rft.artnum=&amp;rft.issn=00099147&amp;rft.eissn=15308561&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=CLCHA&amp;rft_id=info:doi/10.1373%2Fclinchem.2014.230656&amp;rft.object_id=&amp;rft.eisbn=&amp;rft.edition=&amp;rft.pub=American+Association+for+Clinical+Chemistry+Inc.&amp;rft.place=&amp;rft.series=&amp;rft.stitle=&amp;rft.bici=&amp;rft_id=info:bibcode/&amp;rft_id=info:hdl/&amp;rft_id=info:lccn/&amp;rft_id=info:oclcnum/&amp;rft_id=info:pmid/&amp;rft_id=info:eric/&amp;rft_dat=&lt;scopus>2-s2.0-84921851772&lt;/scopus>,language=,view=&amp;svc_dat=viewit&amp;req.skin=umn" GetIt2="http://na01.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&amp;ctx_id=10_1&amp;ctx_tim=2015-09-03T07%3A50%3A16IST&amp;ctx_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;url_ver=Z39.88-2004&amp;rfr_id=info:sid/primo.exlibrisgroup.com-scopus&amp;req_id=&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Impact+of+smoothing+on+parameter+estimation+in+quantitative+DNA+amplification+experiments&amp;rft.jtitle=Clinical+Chemistry&amp;rft.btitle=&amp;rft.aulast=Spiess&amp;rft.auinit=A&amp;rft.auinit1=&amp;rft.auinitm=N&amp;rft.ausuffix=&amp;rft.au=Spiess%2C+Andrej-Nikolai&amp;rft.aucorp=&amp;rft.date=20150201&amp;rft.volume=61&amp;rft.issue=2&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=379&amp;rft.epage=388&amp;rft.pages=379-388&amp;rft.artnum=&amp;rft.issn=00099147&amp;rft.eissn=15308561&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=CLCHA&amp;rft_id=info:doi/10.1373%2Fclinchem.2014.230656&amp;rft.object_id=;&amp;rft.eisbn=&amp;rft.edition=&amp;rft.pub=American+Association+for+Clinical+Chemistry+Inc.&amp;rft.place=&amp;rft.series=&amp;rft.stitle=&amp;rft.bici=&amp;rft_id=info:bibcode/&amp;rft_id=info:hdl/&amp;rft_id=info:lccn/&amp;rft_id=info:oclcnum/&amp;rft_id=info:pmid/&amp;rft_id=info:eric/&amp;rft_dat=&lt;scopus>2-s2.0-84921851772&lt;/scopus>,language=,view=&amp;lt;scopus&amp;gt;2-s2.0-84921851772&amp;lt;/scopus&amp;gt;,language=,view=&amp;svc_dat=getit&amp;user_ip=&amp;req.skin=umn"/><sear:LINKS><sear:openurl><![CDATA[http://1.1.1.1?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2015-09-03T07%3A50%3A16IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Article-scopus&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Impact+of+smoothing+on+parameter+estimation+in+quantitative+DNA+amplification+experiments&rft.jtitle=Clinical+Chemistry&rft.btitle=&rft.aulast=Spiess&rft.auinit=A&rft.auinit1=&rft.auinitm=N&rft.ausuffix=&rft.au=Spiess%2C+Andrej-Nikolai&rft.aucorp=&rft.date=20150201&rft.volume=61&rft.issue=2&rft.part=&rft.quarter=&rft.ssn=&rft.spage=379&rft.epage=388&rft.pages=379-388&rft.artnum=&rft.issn=00099147&rft.eissn=15308561&rft.isbn=&rft.sici=&rft.coden=CLCHA&rft_id=info:doi/10.1373%2Fclinchem.2014.230656&rft.object_id=&rft_dat=<scopus>2-s2.0-84921851772</scopus><grp_id>-4944690514151195743</grp_id><oa></oa>&rft.eisbn=&rft_id=info:oai/&req.language=]]></sear:openurl><sear:backlink>http://www.scopus.com/scopus/openurl/link.url?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&amp;svc.abstract=yes&amp;rft_id=info:eid/2-s2.0-84921851772&amp;rfr_dat=partnerID:45</sear:backlink><sear:thumbnail/><sear:openurlfulltext><![CDATA[http://1.1.1.1?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2015-09-03T07%3A50%3A16IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Article-scopus&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Impact+of+smoothing+on+parameter+estimation+in+quantitative+DNA+amplification+experiments&rft.jtitle=Clinical+Chemistry&rft.btitle=&rft.aulast=Spiess&rft.auinit=A&rft.auinit1=&rft.auinitm=N&rft.ausuffix=&rft.au=Spiess%2C+Andrej-Nikolai&rft.aucorp=&rft.date=20150201&rft.volume=61&rft.issue=2&rft.part=&rft.quarter=&rft.ssn=&rft.spage=379&rft.epage=388&rft.pages=379-388&rft.artnum=&rft.issn=00099147&rft.eissn=15308561&rft.isbn=&rft.sici=&rft.coden=CLCHA&rft_id=info:doi/10.1373%2Fclinchem.2014.230656&rft.object_id=&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&svc.fulltext=yes&rft_dat=<scopus>2-s2.0-84921851772</scopus><grp_id>-4944690514151195743</grp_id><oa></oa>&rft.eisbn=&rft_id=info:oai/&req.language=]]></sear:openurlfulltext></sear:LINKS></sear:DOC><sear:DOC RANK="1.2384501E-6" ID="49992532" NO="2" SITEID="" LOCAL="false" SEARCH_ENGINE="primo_central_multiple_fe" SEARCH_ENGINE_TYPE="Primo Central Search Engine"><PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib">
+    <record>
+      <control>
+        <sourcerecordid>000352134200013</sourcerecordid>
+        <sourceid>wos</sourceid>
+        <recordid>TN_wos000352134200013</recordid>
+        <sourceformat>XML</sourceformat>
+        <sourcesystem>Other</sourcesystem>
+      </control>
+      <display>
+        <type>article</type>
+        <title>Impact of Smoothing on Parameter Estimation in Quantitative DNA Amplification Experiments</title>
+        <creator>Spiess, An ; Deutschmann, C ; Burdukiewicz, M ; Himmelreich, R ; Klat, K ; Schierack, P ; Rodiger, S</creator>
+        <ispartof>Clinical Chemistry, 2015 Feb, Vol.61(2), pp.379-388</ispartof>
+        <identifier>&lt;b>ISSN: &lt;/b>0009-9147 ; &lt;b>DOI: &lt;/b> 10.1373/clinchem.2014.230656</identifier>
+        <language>English</language>
+        <source>Web of Science&lt;img src="http://exlibris-pub.s3.amazonaws.com/fromwos-v2.jpg" style="vertical-align:middle;margin-left:7px"></source>
+        <lds50>peer_reviewed</lds50>
+      </display>
+      <links>
+        <openurl>$$Topenurl_article</openurl>
+        <backlink><![CDATA[$$Uhttp://gateway.webofknowledge.com/gateway/Gateway.cgi?&GWVersion=2&SrcAuth=ExLibris&SrcApp=Primo1&DestLinkType=FullRecord&KeyUT=000352134200013&DestApp=WOS$$EView_this_record_in_Web_of_Science<small><sup>SM</sup></small>]]></backlink>
+        <thumbnail>$$TPCamazon_thumb</thumbnail>
+        <thumbnail>$$TPCgoogle_thumb</thumbnail>
+        <openurlfulltext>$$Topenurlfull_article</openurlfulltext>
+      </links>
+      <search>
+        <creatorcontrib>Spiess, An</creatorcontrib>
+        <creatorcontrib>Deutschmann, C</creatorcontrib>
+        <creatorcontrib>Burdukiewicz, M</creatorcontrib>
+        <creatorcontrib>Himmelreich, R</creatorcontrib>
+        <creatorcontrib>Klat, K</creatorcontrib>
+        <creatorcontrib>Schierack, P</creatorcontrib>
+        <creatorcontrib>Rodiger, S</creatorcontrib>
+        <title>Impact of Smoothing on Parameter Estimation in Quantitative DNA Amplification Experiments</title>
+        <description>BACKGROUND: Quantification cycle (Cq) and amplification efficiency (AE) are parameters mathematically extracted from raw data to characterize quantitative PCR (qPCR) reactions and quantify the copy number in a sample. Little attention has been paid to the effects of preprocessing and the use of smoothing or filtering approaches to compensate for noisy data. Existing algorithms largely are taken for granted, and it is unclear which of the various methods is most informative. We investigated the effect of smoothing and filtering algorithms on amplification curve data. METHODS: We obtained published high-replicate qPCR data sets from standard block thermocyclers and other cycler platforms and statistically evaluated the impact of smoothing on Cq and AE. RESULTS: Our results indicate that selected smoothing algorithms affect estimates of Cq and AE considerably. The commonly used moving average filter performed worst in all qPCR scenarios. The Savitzky-Golay smoother, cubic splines, and Whittaker smoother resulted overall in the least bias in our setting and exhibited low sensitivity to differences in qPCR AE, whereas other smoothers, such as running mean, introduced an AE-dependent bias. CONCLUSIONS: The selection of a smoothing algorithm is an important step in developing data analysis pipelines for real-time PCR experiments. We offer guidelines for selection of an appropriate smoothing algorithm in diagnostic qPCR applications. The findings of our study were implemented in the R packages chipPCR and qpcR as a basis for the implementation of an analytical strategy. (C) 2014 American Association for Clinical Chemistry</description>
+        <subject>real-time pcr</subject>
+        <subject>chain-reaction analysis</subject>
+        <subject>technology</subject>
+        <subject>efficiency</subject>
+        <subject>precision</subject>
+        <subject>software</subject>
+        <subject>model</subject>
+        <subject>qpcr</subject>
+        <subject>bias</subject>
+        <general>English</general>
+        <general>10.1373/clinchem.2014.230656</general>
+        <general>Web of Science&lt;img src="http://exlibris-pub.s3.amazonaws.com/fromwos-v2.jpg" style="vertical-align:middle;margin-left:7px"></general>
+        <general>AMER ASSOC CLINICAL CHEMISTRY</general>
+        <general>Science Citation Index Expanded (Web of Science)</general>
+        <sourceid>wos</sourceid>
+        <recordid>wos000352134200013</recordid>
+        <issn>00099147</issn>
+        <issn>0009-9147</issn>
+        <rsrctype>article</rsrctype>
+        <creationdate>2015</creationdate>
+        <recordtype>article</recordtype>
+        <addtitle>CLINICAL CHEMISTRY</addtitle>
+        <searchscope>WOS_SCIE</searchscope>
+        <searchscope>WOS_SCIE(2015)</searchscope>
+        <searchscope>wos</searchscope>
+        <scope>WOS_SCIE</scope>
+        <scope>WOS_SCIE(2015)</scope>
+        <scope>wos</scope>
+        <alttitle>Clin. Chem.</alttitle>
+        <startdate>20150201</startdate>
+        <enddate>20150231</enddate>
+        <citation>pf 379 pt 388 vol 61 issue 2</citation>
+      </search>
+      <sort>
+        <title>Impact of Smoothing on Parameter Estimation in Quantitative DNA Amplification Experiments</title>
+        <author>Spiess, An ; Deutschmann, C ; Burdukiewicz, M ; Himmelreich, R ; Klat, K ; Schierack, P ; Rodiger, S</author>
+        <creationdate>20150200</creationdate>
+        <lso01>20150200</lso01>
+      </sort>
+      <facets>
+        <frbrgroupid>3567201673182083319</frbrgroupid>
+        <frbrtype>6</frbrtype>
+        <language>eng</language>
+        <creationdate>2015</creationdate>
+        <collection>Science Citation Index Expanded (Web of Science)</collection>
+        <prefilter>articles</prefilter>
+        <rsrctype>articles</rsrctype>
+        <creatorcontrib>Spiess, An</creatorcontrib>
+        <creatorcontrib>Deutschmann, C</creatorcontrib>
+        <creatorcontrib>Burdukiewicz, M</creatorcontrib>
+        <creatorcontrib>Himmelreich, R</creatorcontrib>
+        <creatorcontrib>Klat, K</creatorcontrib>
+        <creatorcontrib>Schierack, P</creatorcontrib>
+        <creatorcontrib>Rodiger, S</creatorcontrib>
+        <jtitle>Clinical Chemistry</jtitle>
+        <toplevel>peer_reviewed</toplevel>
+      </facets>
+      <delivery>
+        <delcategory>Remote Search Resource</delcategory>
+        <fulltext>fulltext</fulltext>
+      </delivery>
+      <addata>
+        <date>201502</date>
+        <risdate>201502</risdate>
+        <volume>61</volume>
+        <issue>2</issue>
+        <spage>379</spage>
+        <epage>388</epage>
+        <format>journal</format>
+        <genre>article</genre>
+        <ristype>JOUR</ristype>
+        <aulast>Spiess</aulast>
+        <aulast>Deutschmann</aulast>
+        <aulast>Burdukiewicz</aulast>
+        <aulast>Himmelreich</aulast>
+        <aulast>Klat</aulast>
+        <aulast>Schierack</aulast>
+        <aulast>Rodiger</aulast>
+        <aulast>Roediger</aulast>
+        <aufirst>Andrej-Nikolai</aufirst>
+        <aufirst>Claudia</aufirst>
+        <aufirst>Michal</aufirst>
+        <aufirst>Ralf</aufirst>
+        <aufirst>Katharina</aufirst>
+        <aufirst>Peter</aufirst>
+        <aufirst>Stefan</aufirst>
+        <aufirst>An</aufirst>
+        <aufirst>C</aufirst>
+        <aufirst>M</aufirst>
+        <aufirst>R</aufirst>
+        <aufirst>K</aufirst>
+        <aufirst>P</aufirst>
+        <aufirst>S</aufirst>
+        <au>Spiess, An</au>
+        <au>Deutschmann, C</au>
+        <au>Burdukiewicz, M</au>
+        <au>Himmelreich, R</au>
+        <au>Klat, K</au>
+        <au>Schierack, P</au>
+        <au>Rodiger, S</au>
+        <atitle>Impact of Smoothing on Parameter Estimation in Quantitative DNA Amplification Experiments</atitle>
+        <jtitle>Clinical Chemistry</jtitle>
+        <addtitle>Clin. Chem.</addtitle>
+        <pages>379-388</pages>
+        <issn>0009-9147</issn>
+        <pub>AMER ASSOC CLINICAL CHEMISTRY</pub>
+        <doi>10.1373/clinchem.2014.230656</doi>
+      </addata>
+    </record>
+  </PrimoNMBib><sear:GETIT deliveryCategory="Remote Search Resource" GetIt1="http://na01.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&amp;ctx_id=10_1&amp;ctx_tim=2015-09-03T07%3A50%3A16IST&amp;ctx_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;url_ver=Z39.88-2004&amp;rfr_id=info:sid/primo.exlibrisgroup.com-wos&amp;req_id=&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Impact+of+Smoothing+on+Parameter+Estimation+in+Quantitative+DNA+Amplification+Experiments&amp;rft.jtitle=Clinical+Chemistry&amp;rft.btitle=&amp;rft.aulast=Spiess&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=Spiess%2C+An&amp;rft.aucorp=&amp;rft.date=201502&amp;rft.volume=61&amp;rft.issue=2&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=379&amp;rft.epage=388&amp;rft.pages=379-388&amp;rft.artnum=&amp;rft.issn=0009-9147&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/10.1373%2Fclinchem.2014.230656&amp;rft.object_id=&amp;rft.eisbn=&amp;rft.edition=&amp;rft.pub=AMER+ASSOC+CLINICAL+CHEMISTRY&amp;rft.place=&amp;rft.series=&amp;rft.stitle=&amp;rft.bici=&amp;rft_id=info:bibcode/&amp;rft_id=info:hdl/&amp;rft_id=info:lccn/&amp;rft_id=info:oclcnum/&amp;rft_id=info:pmid/&amp;rft_id=info:eric/&amp;rft_dat=&lt;wos>000352134200013&lt;/wos>,language=,view=&amp;svc_dat=viewit&amp;req.skin=umn" GetIt2="http://na01.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&amp;ctx_id=10_1&amp;ctx_tim=2015-09-03T07%3A50%3A16IST&amp;ctx_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;url_ver=Z39.88-2004&amp;rfr_id=info:sid/primo.exlibrisgroup.com-wos&amp;req_id=&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Impact+of+Smoothing+on+Parameter+Estimation+in+Quantitative+DNA+Amplification+Experiments&amp;rft.jtitle=Clinical+Chemistry&amp;rft.btitle=&amp;rft.aulast=Spiess&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=Spiess%2C+An&amp;rft.aucorp=&amp;rft.date=201502&amp;rft.volume=61&amp;rft.issue=2&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=379&amp;rft.epage=388&amp;rft.pages=379-388&amp;rft.artnum=&amp;rft.issn=0009-9147&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/10.1373%2Fclinchem.2014.230656&amp;rft.object_id=;&amp;rft.eisbn=&amp;rft.edition=&amp;rft.pub=AMER+ASSOC+CLINICAL+CHEMISTRY&amp;rft.place=&amp;rft.series=&amp;rft.stitle=&amp;rft.bici=&amp;rft_id=info:bibcode/&amp;rft_id=info:hdl/&amp;rft_id=info:lccn/&amp;rft_id=info:oclcnum/&amp;rft_id=info:pmid/&amp;rft_id=info:eric/&amp;rft_dat=&lt;wos>000352134200013&lt;/wos>,language=,view=&amp;lt;wos&amp;gt;000352134200013&amp;lt;/wos&amp;gt;,language=,view=&amp;svc_dat=getit&amp;user_ip=&amp;req.skin=umn"/><sear:LINKS><sear:openurl><![CDATA[http://1.1.1.1?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2015-09-03T07%3A50%3A16IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Article-wos&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Impact+of+Smoothing+on+Parameter+Estimation+in+Quantitative+DNA+Amplification+Experiments&rft.jtitle=Clinical+Chemistry&rft.btitle=&rft.aulast=Spiess&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=Spiess%2C+An&rft.aucorp=&rft.date=201502&rft.volume=61&rft.issue=2&rft.part=&rft.quarter=&rft.ssn=&rft.spage=379&rft.epage=388&rft.pages=379-388&rft.artnum=&rft.issn=0009-9147&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/10.1373%2Fclinchem.2014.230656&rft.object_id=&rft_dat=<wos>000352134200013</wos><grp_id>3567201673182083319</grp_id><oa></oa>&rft.eisbn=&rft_id=info:oai/&req.language=]]></sear:openurl><sear:backlink><![CDATA[http://gateway.webofknowledge.com/gateway/Gateway.cgi?&GWVersion=2&SrcAuth=ExLibris&SrcApp=Primo1&DestLinkType=FullRecord&KeyUT=000352134200013&DestApp=WOS]]></sear:backlink><sear:thumbnail>http://images.amazon.com/images/P/.01._SSTHUM_.jpg</sear:thumbnail><sear:thumbnail>http://books.google.com/books?bibkeys=ISBN:,OCLC:,LCCN:&amp;jscmd=viewapi&amp;callback=updateGBSCover</sear:thumbnail><sear:openurlfulltext><![CDATA[http://1.1.1.1?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2015-09-03T07%3A50%3A16IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Article-wos&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Impact+of+Smoothing+on+Parameter+Estimation+in+Quantitative+DNA+Amplification+Experiments&rft.jtitle=Clinical+Chemistry&rft.btitle=&rft.aulast=Spiess&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=Spiess%2C+An&rft.aucorp=&rft.date=201502&rft.volume=61&rft.issue=2&rft.part=&rft.quarter=&rft.ssn=&rft.spage=379&rft.epage=388&rft.pages=379-388&rft.artnum=&rft.issn=0009-9147&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/10.1373%2Fclinchem.2014.230656&rft.object_id=&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&svc.fulltext=yes&rft_dat=<wos>000352134200013</wos><grp_id>3567201673182083319</grp_id><oa></oa>&rft.eisbn=&rft_id=info:oai/&req.language=]]></sear:openurlfulltext></sear:LINKS></sear:DOC></sear:DOCSET></sear:RESULT><sear:searchToken>0;0</sear:searchToken></sear:JAGROOT></sear:SEGMENTS>

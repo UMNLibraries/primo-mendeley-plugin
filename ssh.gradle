@@ -1,0 +1,111 @@
+/**
+ * Custom tasks for downloading Primo jars,
+ * uploading deployment artifacts, and
+ * restarting the FE
+ */
+
+// This is just a basic template to show how you might configure your
+// primo servers. For configuration details, see:
+// https://gradle-ssh-plugin.github.io/docs 
+
+ssh.settings {
+    dryRun = project.hasProperty('dryRun')
+//    agent = true 
+}
+
+remotes {
+    gw { // if you use a gatewayserver...
+        host = 'gateway.hostname'
+        user = System.getProperty("user.name")
+    }
+    stage {
+        //gateway = gw
+        host = 'staging.hostname'
+        user = 'primo'
+    }
+    fe1 {
+        //gateway = gw
+        host = 'prod.fe1.hostname'
+        port = 1234
+        user = 'primo'
+    }
+    fe2 {
+        //gateway = gw
+        host = 'prod.fe2.hostname'
+        port = 1234
+        user = 'primo'
+    }
+}
+
+task makePrimoDependencyDir {
+    outputs.dir primoDependencyDir
+    doLast {
+        new File(primoDependencyDir).mkdirs()
+    }
+}
+
+// download dependencies from primo server
+task getPrimoLibs {
+    dependsOn makePrimoDependencyDir
+    outputs.file primoJars.collect { jar -> file("${primoDependencyDir}/${jar}") }
+    def primoLibDir =
+            '/exlibris/primo/p4_1/ng/primo/home/system/tomcat/search/webapps/primo_library\\#libweb/WEB-INF/lib'
+    doLast { //noinspection GroovyAssignabilityCheck
+        ssh.run {
+            session(remotes.stage) {
+                primoJars.each { jar ->
+                    println "Downloading required jar file from the Primo server: ${jar}"
+                    get from: "${primoLibDir}/${jar}",
+                        into: primoDependencyDir
+                }
+            }
+        }
+    }
+}
+
+def deploy(host) {
+    def sourcePath = jar.archivePath
+    def targetPath = "/exlibris/primo/p4_1/ng/primo/home/profile/search/pushTo/${jar.archiveName}"
+
+    ssh.run {
+        session(host){
+            put from: sourcePath,
+                into: targetPath
+        }
+    }
+}
+
+//is restarting the FE still necessary?
+def restartFe(host) {
+    def envFile = "/exlibris/primo/p4_1/primom/.cshrc"
+    ssh.run {
+        session(host) {
+            execute "source ${envFile}; cd \$jlibh_bin; ./fe_shutdown.sh; ./fe_startup.sh"
+        }
+    }
+}
+
+task deployToStage << {
+    deploy(remotes.stage)
+}
+
+task deployToProd << {
+    deploy(remotes.fe1)
+    deploy(remotes.fe2)
+}
+
+task restartStageFe << {
+    restartFe(remotes.stage)
+}
+
+task restartProdFe << {
+    restartFe(remotes.fe1)
+    restartFe(remotes.fe2)
+}
+
+['Stage', 'Prod'].each { env ->
+    def taskName = "deployTo${env}AndRestart"
+    task(taskName, dependsOn: ["deployTo${env}", "restart${env}Fe"]) << {}
+}
+
+
