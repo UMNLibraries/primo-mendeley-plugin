@@ -43,4 +43,4 @@ compileJava.dependsOn getPrimoLibs
 ```
 
 ## License
-© 2016 Regents of the University. Of Minnesota. All rights reserved.
+© 2016 Regents of the University of Minnesota. All rights reserved.
