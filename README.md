@@ -21,8 +21,14 @@ Mendeley's Web Importer does not support importing multiple records. If >1 recor
 ## Installation
 1. Download the latest [MendeleyProcess.jar file](../../releases), and 
 2. put it in the following directory on your FE server(s): `$primo_dev/ng/primo/home/profile/search/pushTo/`. 
-3. In the Back Office, update the `Pushto Adaptors` mapping table and `Keeping this item` code table as described [here](https://developers.exlibrisgroup.com/primo/integrations/frontend/pushto).
-4. [Deploy All](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Back_Office_Guide/Additional_Primo_Features/Deploy_All_Configuration_Settings).
+3. In the Back Office, add a row to the `Pushto Adaptors` mapping table: 
+  - **Adaptor Identifier**: `Mendeley`
+  - **Key**: `Class`
+  - **Value**: `edu.umn.lib.primo.pushto.MendeleyProcess`
+4. Save the mapping table, and then add a row to the `Keeping this item` code table:
+  - **Code**: `default.fulldisplay.command.pushto.option.Mendeley`
+  - **Value**: `Mendeley` (or whatever label you wish to display to users)
+5. Save the code table, and then [Deploy All](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Back_Office_Guide/Additional_Primo_Features/Deploy_All_Configuration_Settings).
 
 ### Removing the Mendeley action from the E-shelf page
 Because the Menedley Web Importer cannot handle multiple records, you may wish to hide this action in the e-shelf page. Use the following CSS to do so:
