@@ -42,5 +42,3 @@ apply from: 'ssh.gradle'
 compileJava.dependsOn getPrimoLibs
 ```
 
-## License
-© 2016 Regents of the University of Minnesota. All rights reserved.
