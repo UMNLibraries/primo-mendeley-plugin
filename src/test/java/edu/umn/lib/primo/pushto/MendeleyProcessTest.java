@@ -133,6 +133,7 @@ public class MendeleyProcessTest {
                     .append(VID)
                     .append("&fromMendeley=true")
                     .append("&fromSitemap=1")
+                    .append("&afterPDS=true")
                     .toString();
         String expectedUrl = IMPORT_URL + URLEncoder.encode(callbackUrl, "utf-8");
         return expectedUrl;

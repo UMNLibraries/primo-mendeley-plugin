@@ -43,6 +43,7 @@ public class PushToMendeleyRequest {
                 .append(this.vid)
                 .append("&fromMendeley=true")
                 .append("&fromSitemap=1")
+                .append("&afterPDS=true")
                 .toString();
         return IMPORT_BASE_URL + URLEncoder.encode(callbackUrl, CharEncoding.UTF_8);
     }
